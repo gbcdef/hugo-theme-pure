@@ -5848,8 +5848,8 @@ body.no-sidebar .sidebar {
 }
 
 #avatar {
-  width: 64px;
-  height: 64px;
+  width: 100%;
+  /* height: 64px; */
   display: inline-block;
 }
 

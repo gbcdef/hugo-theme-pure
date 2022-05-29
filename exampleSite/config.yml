@@ -8,7 +8,7 @@ hasCJKLanguage: true
 paginate: 7
 enableEmoji: true
 PygmentsCodeFences: false
-googleAnalytics: ""      # UA-XXXXXXXX-X 
+googleAnalytics: ""      # G-XXXXXXXXX
 permalinks:
   posts: /:year/:month/:filename/
 
@@ -142,6 +142,7 @@ params:
       repo:  #必须. GitHub repository.
       ClientID: #必须. GitHub Application Client ID.
       ClientSecret: #必须. GitHub Application Client Secret.
+      proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
     valine: # Valine. https://valine.js.org
       appid: # your leancloud application appid
       appkey: # your leancloud application appkey

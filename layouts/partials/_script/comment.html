@@ -45,6 +45,7 @@
         repo: '{{- $comment.gitalk.repo }}',
         owner: '{{- $comment.gitalk.owner }}',
         admin: ['{{- $comment.gitalk.admin }}'],
+        proxy: ['{{- $comment.gitalk.proxy }}'],
         id: md5(location.pathname),
         distractionFreeMode: true
     });
